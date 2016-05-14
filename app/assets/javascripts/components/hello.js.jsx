@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from './counter.js.jsx';
 
 function Hello({ data }) {
   const commentNodes = data.map((comment) => (
@@ -6,7 +7,7 @@ function Hello({ data }) {
       {comment.author} <br /> {comment.text}
     </div>
   ));
-  return (<div>{commentNodes}</div>);
+  return (<div>{commentNodes}<Counter /></div>);
 }
 
 Hello.propTypes = {
