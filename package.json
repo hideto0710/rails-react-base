@@ -6,7 +6,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "eslint app/assets/javascripts/**/**"
   },
   "peerdependencies": {
     "react": "^15.0.2",
@@ -19,6 +20,11 @@
     "babelify": "^7.3.0",
     "browserify": "^13.0.1",
     "browserify-incremental": "^3.1.1",
+    "eslint": "^2.10.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   }
