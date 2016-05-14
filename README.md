@@ -34,7 +34,7 @@ $ bundle exec rails server
 
 ## Lint
 ```
-$ npm run eslint
+$ npm run lint
 ```
 
 ## Test
