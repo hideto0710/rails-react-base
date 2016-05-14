@@ -27,12 +27,17 @@ $ bundle install --path vendor/bundler
 $ npm install
 ```
 
-## Configurer
-```
-$ vim config database.yml
-```
-
 ## Run
 ```
 $ bundle exec rails server
+```
+
+## Lint
+```
+$ npm run eslint
+```
+
+## Test
+```
+// TODO
 ```
