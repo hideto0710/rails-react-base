@@ -39,5 +39,5 @@ $ npm run lint
 
 ## Test
 ```
-// TODO
+$ npm test
 ```

@@ -1,8 +1,8 @@
 import React from 'react';
 
 class Counter extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       count: 0,
     };
@@ -20,9 +20,14 @@ class Counter extends React.Component {
       <div>
         <h1>{this.state.count}</h1>
         <button onClick={this.onClick}>Count Up!</button>
+        <h2>{this.props.animalName}</h2>
       </div>
     );
   }
 }
+
+Counter.propTypes = {
+  animalName: React.PropTypes.string,
+};
 
 export default Counter;
