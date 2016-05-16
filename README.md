@@ -34,6 +34,7 @@ $ bundle exec rails server
 
 ## Lint
 ```
+$ bundle exec rubocop
 $ npm run lint
 ```
 
